@@ -1,0 +1,28 @@
+{
+  "name": "z-inspire",
+  "version": "1.0.0",
+  "description": "A CLI tool to inspire you based on how you are feeling",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "z-inspire": "./bin/z-inspire.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "inspirational",
+    "quotes",
+    "CLI",
+    "mood"
+  ],
+  "author": "Zengry10",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^10.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^9.0.0"
+  }
+}
